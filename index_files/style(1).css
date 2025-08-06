@@ -1,0 +1,145 @@
+/*
+Theme Name: BT nhat Tam
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+/*body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font: 14px/18px Arial,Helvetica,sans-serif;
+}*/
+.page-wrapper {
+    padding-top: 20px !important;
+}
+.row, .row-main {
+	max-width: 1200px !important;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+/**.header-top-custom {
+	position: absolute;
+	max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    background-image: url(https://banthonhattam.com/wp-content/uploads/2022/02/bn.jpg);
+    background-position: center;
+    background-size: cover;
+	cursor: pointer;
+}**/
+.header-main-custom {
+    padding-left: 0px;
+    padding-right: 0px;
+	max-width: 1200px !important;
+}
+.search-form-custom {
+	max-width: 30%;
+    margin-right: 30px;
+}
+.search-form-custom-li {
+	width:100% !important;
+}
+.search-input-custom {
+	background-color: white !important;
+	border-radius: 5px !important;
+    border: 0px !important;
+}
+.cart-custom {
+	margin-left: 0px;
+    margin-right: auto;
+}
+.cart-item > a{
+	border: 1px solid white;
+    color: white !important;
+    font-weight: 100 !important;
+    padding: 5px 10px !important;
+    border-radius: 5px;
+	letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.cart-item > a:hover {
+	background-color: #b3abab;
+}
+.cart-item > a > i {
+	font-size: 15px !important;
+	}
+a.header-cart-link.is-small {
+    margin-right: 10px !important;
+}
+.header-bot-custom {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.san-pham-dau-trang{
+	padding-left: 15px !important;
+    padding-right: 15px !important;
+	/*height: 550px !important; */
+}
+
+.san-pham-dau-trang .product-small .product-small {
+	background-color: white;
+	border-radius: 5px;
+}
+/*.san-pham-dau-trang img {
+	padding: 5px;
+}*/
+.san-pham-dau-trang .box-text-products {
+	text-align: left !important;
+	border-radius: 5px;
+}
+/*.header-bot-custom .nav-top-link {
+	padding: 12px !important;
+}*/
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+#logo img {
+    max-height: 49px;
+    padding-left: 5px;
+}
+	p.listft3 {
+    border-bottom: 1px solid #ebebeb;
+    padding: 3px 0;
+}
+/***toc***/
+div#toc_container {
+		width:95%;
+}
+*/
+.cot-sp .col.small-12.large-12{
+		padding: 10px 0px 0px 0px !important;
+}
+/*.tabbed-content {
+    padding: 0 8px !important;
+}*/
+h2 {
+    font-size: 1.2em;
+}
+.bai-viet-lien-quan ul li {
+    width: 50%;
+}
+.bai-viet-lien-quan ul li .box-image img {
+    height: 90px;
+}
+}
+@media only screen and (max-width: 1100px){
+.header__listtop .divitem {
+    padding: 0 10px;
+}
+}
+.search-input-custom {
+    background-color: white !important;
+    border-radius: 5px !important;
+    border: 0px !important;
+}
+.blog-archive h1.page-title {
+display: none;
+}
